@@ -39,8 +39,10 @@ public class TextureSetup : MonoBehaviour {
         }
         lastWidth = Screen.width;
         lastHeight = Screen.height;
-        receiverCamera.targetTexture = new RenderTexture(lastWidth, lastHeight, 24);
-        receiverCamera.targetTexture.antiAliasing = (int)antiLevel;
+        receiverCamera.targetTexture = new RenderTexture(lastWidth, lastHeight, 24)
+        {
+            antiAliasing = (int)antiLevel
+        };
         receiverCameraMat.mainTexture = receiverCamera.targetTexture;
     }
 
