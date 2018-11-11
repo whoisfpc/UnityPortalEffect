@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: PortalSenderRender A
   m_Shader: {fileID: 4800000, guid: e2d465da6f4b89541a8627ddc12a26f1, type: 3}
